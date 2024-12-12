@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-function sidebar() {
+function Sidebar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div>
@@ -50,4 +50,4 @@ function sidebar() {
   )
 }
 
-export default sidebar
+export default Sidebar
