@@ -7,7 +7,7 @@ import { Button } from "react-bootstrap";
 import { MdDeleteForever } from "react-icons/md";
 
 
-function todo() {
+function Todo() {
     const [Add, Input] = useState("");
     function addInput(event) {
         Input(event.target.value);
@@ -89,4 +89,4 @@ function todo() {
     );
 }
 
-export default todo;
+export default Todo;
