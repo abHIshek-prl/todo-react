@@ -1,10 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
+
 import Backgnd from "../assets/Backgnd.png";
 import { Button, Navbar } from "react-bootstrap";
 import { MdDeleteForever } from "react-icons/md";
+import Navbar1 from "../components/Navbar1";
 
 
 function Todo() {
@@ -35,9 +36,9 @@ function Todo() {
 
     return (
         <>
-            
+            <Navbar1/>
             <Sidebar/>
-            <Navbar/>
+            
             
             <div
                 className="flex flex-col items-center justify-center w-full h-screen gap-3"

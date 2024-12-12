@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import {Navbar,Container,Button} from 'react-bootstrap';
 import Backgnd from '../assets/Backgnd.png'
 
-function Navbar() {
+function Navbar1() {
   const b= useNavigate();
 
   function  Reverse (e) {
@@ -29,4 +29,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar1
